@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>My timer</title>
+  </head>
+  <body>
+    <div class="timer-block">
+      <div class="timer-block__container container">
+        <div class="timer-block__wrapper">
+          <div class="timer-block__content left">
+            <div class="timer-block__photo">
+              <img
+                src="./image/with_hair.jpg"
+                alt="я с волосами"
+                class="timer-block__photo-image"
+              />
+            </div>
+            <div class="timer-block__timer remained">
+              <div class="timer-display">
+                <div class="timer-item">
+                  <span class="timer-number" id="remained-days">00</span>
+                  <span class="timer-label">дней</span>
+                </div>
+                <div class="timer-item">
+                  <span class="timer-number" id="remained-hours">00</span>
+                  <span class="timer-label">часов</span>
+                </div>
+                <div class="timer-item">
+                  <span class="timer-number" id="remained-minutes">00</span>
+                  <span class="timer-label">минут</span>
+                </div>
+                <div class="timer-item">
+                  <span class="timer-number" id="remained-seconds">00</span>
+                  <span class="timer-label">секунд</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timer-block__content right">
+            <div class="timer-block__photo">
+              <img
+                src="./image/without_hair.jpg"
+                alt="я без волос"
+                class="timer-block__photo-image"
+              />
+            </div>
+            <div class="timer-block__timer passed">
+              <div class="timer-display">
+                <div class="timer-item">
+                  <span class="timer-number" id="passed-days">00</span>
+                  <span class="timer-label">дней</span>
+                </div>
+                <div class="timer-item">
+                  <span class="timer-number" id="passed-hours">00</span>
+                  <span class="timer-label">часов</span>
+                </div>
+                <div class="timer-item">
+                  <span class="timer-number" id="passed-minutes">00</span>
+                  <span class="timer-label">минут</span>
+                </div>
+                <div class="timer-item">
+                  <span class="timer-number" id="passed-seconds">00</span>
+                  <span class="timer-label">секунд</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
